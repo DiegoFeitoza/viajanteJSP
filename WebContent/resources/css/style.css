@@ -1,0 +1,290 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+}
+
+.navbar {
+  background-color: transparent;
+  border:none;
+  margin-bottom: 0;
+  padding-top: 10px;
+}
+
+#modelform input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.navbar-brand,
+.navbar-brand strong,
+.navbar-brand span {
+  font-family: arvo;
+  font-size: 28px;
+  color: #fefefe;
+  padding-top: 20px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #f3f3f3;
+  opacity: .9;
+  text-transform: uppercase;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.textArea-resize{
+	resize: none;
+}
+
+ul.nav, .jumbotron h1 {
+    font-family: 'Arvo', courier, serif;
+}
+
+ul.nav {
+    font-size: 13px;
+}
+footer {
+    background-color: #bdc3c7;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+/*
+#get-involved {
+    background: #f5f5f5;
+}
+
+#back-to-top a {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: #333;
+}
+
+*/
+
+.jumbotron {
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/digital%20nomad1.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  margin-top: -65px;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  padding: 10px;
+  text-align: center;
+  margin: 70px 20px;
+  font-weight: 600;
+  font-size: 50px;
+  text-shadow: 1px 1px 2px #333;
+  margin-bottom: 30px;
+}
+
+.jumbotron p {
+    margin-bottom: 50px;
+    font-weight: 100;
+    padding: 0 50px;
+  opacity: .9;
+}
+
+.jumbotron .form-control{
+    height: 45px;
+    font-size: 18px;
+}
+
+.botao-form-next{
+	padding:20px;
+}
+
+.modal-dialog {
+    position: absolute;
+    left: 50%;
+    margin-left: -300px;
+    top: 50%;
+    margin-top: -173px;
+}
+
+.modal-content iframe {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.modal-content button.close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #fff;
+    font-size: 28px;
+    width: 30px;
+    opacity: 1;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -maz-border-radius: 24px;
+}
+
+.btn-lg {
+    font-size: 20px;
+    padding: 15px 35px;
+}
+
+#explore {
+  background: #ecf0f1;
+}
+
+#get-involved {
+  background: #ecf0f1;
+}
+
+.homepage {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: #555;
+    font-weight: 100;
+    opacity: .9;
+}
+
+.homepage h2, h3 {
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;
+}
+    
+.homepage h2 {
+    font-size: 30px;
+}
+
+.homepage h3 {
+    font-size: 26px;
+}
+
+.homepage p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.homepage hr {
+    width: 140px;
+    margin-top: 15px;
+    border-top: 1px solid #999;
+}
+
+#how-it-works {
+  background: #d35400;
+}
+
+.how {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    color: #eee;
+}
+
+.how h2, h3 {
+    font-family: 'Arvo', courier, serif;
+    text-transform: uppercase;
+}
+    
+.how h2 {
+    font-size: 30px;
+}
+
+.how h3 {
+    font-size: 26px;
+}
+
+.how p {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.how hr {
+    width: 140px;
+    margin-top: 15px;
+}
+
+.margin-top{
+	margin-top:10px;
+}
+#how-it-works>div>div>.col-xs-4 {
+  margin: 0px 3px;
+  width: 32%;
+  height: 240px;
+  background-color: rgba(230, 147, 34, 0.17);
+}
+
+/* Responsive Styling */
+
+@media (max-width: 1199px) {
+    .jumbotron {
+        font-size: 56px;
+        background-size: 1199px;
+      background-position: top;
+    }
+}
+
+@media (max-width: 991px) {
+    .jumbotron {
+        font-size: 44px;
+    }
+    
+    .jumbotron p {
+        padding: 0 10px;
+    }
+    
+    #get-involved .col-md-4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .jumbotron {
+      font-size: 24px;
+      background-position: center;
+    }
+    
+    .jumbotron p {
+        font-size: 16px;
+        padding: 0;
+    }
+    
+    .btn-lg {
+        font-family: 18px;
+    }
+    
+    .homepage p {
+        font-family: 18px;
+    }
+    
+    footer img {
+        width: 330px;
+    }
+  
+  
+  
+  
+}
+
+
+/* Organize */
+
+#search {
+    width: 41%;
+    margin: 0 auto;
+}
+
+#search input {
+    text-align: center;
+}
+
+
+#btn-how {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 0px;
+  color: white;
+}
